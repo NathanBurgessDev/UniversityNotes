@@ -30,9 +30,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c5c363d14a85e45d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Year2/DSY/Client Server Java.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "19dba373330bbd57",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Year2/DSY/IP Networking & Virtual Machines.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -82,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "282609a6846993e6",
@@ -99,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Year2/LAC/Introduction.md",
+                "file": "Year2/DSY/IP Networking & Virtual Machines.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Year2/LAC/Introduction.md",
+                "file": "Year2/DSY/IP Networking & Virtual Machines.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Year2/LAC/Introduction.md"
+                "file": "Year2/DSY/IP Networking & Virtual Machines.md"
               }
             }
           }
@@ -161,8 +184,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5a69845ab37d20a1",
+  "active": "19dba373330bbd57",
   "lastOpenFiles": [
+    "Year2/DSY/Client Server Java.md",
+    "Year2/LAC/Introduction.md",
     "README.md"
   ]
 }
