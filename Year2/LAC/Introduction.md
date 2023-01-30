@@ -6,5 +6,20 @@
 | Type 1 | Context sensitive                                       | Turing machines   | Grammar $\lambda$       |
 | Type 0 | Recursively enumerable languages -> Decidable languages |                   |                         |
 
-##The Halting Problem
 
+
+
+## The Halting Problem
+
+``` C
+while (n > 1) {  
+	if even(n) {  
+		n = n / 2;  
+	} else {  
+	n = n * 3 + 1;  
+	}  
+}
+```
+
+- Does it terminate for all values of $n \ge 1$
+- 
