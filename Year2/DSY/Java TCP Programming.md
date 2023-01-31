@@ -9,6 +9,14 @@
 	- has na `java.io.InputStream` to receive bytes from and a `java.io.OutputStream` to send bytes to
 
 ### TCP Client 
+1. Make a Socket -> connect  
+(Unknown host / IO exception -> problem)  
+2. (Prepare input stream = from server)  
+3. (Prepare output stream = to server)  
+4. Write request bytes to output stream  
+5. Read response bytes from input stream  (EOF -> not enough input)  
+6. ...  
+7. Close socket -> terminate connection
 ``` Java
 import java.net.*;  
 import java.io.*;  
@@ -34,14 +42,6 @@ public class TCPClient {
 	}  
 }
 ```
-1. Make a Socket -> connect  
-(Unknown host / IO exception -> problem)  
-2. (Prepare input stream = from server)  
-3. (Prepare output stream = to server)  
-4. Write request bytes to output stream  
-5. Read response bytes from input stream  (EOF -> not enough input)  
-6. ...  
-7. Close socket -> terminate connection
 
 ### TCP Server 
 
@@ -54,14 +54,14 @@ import java.net.*;
 import java.io.*;  
 public class TCPServer {  
 	public static void main (String args[]) {  
-	try{  
-	int serverPort = 7896;  
-	ServerSocket listenSocket = new ServerSocket(serverPort);  
-	while(true) {  
-	Socket clientSocket = listenSocket.accept();  
-	Connection c = new Connection(clientSocket);  
-	}  
-	} catch(IOException e) {System.out.println("Listen :"+e.getMessage());}  
+		try{  
+			int serverPort = 7896;  
+			ServerSocket listenSocket = new ServerSocket(serverPort);  
+			while(true) {  
+			Socket clientSocket = listenSocket.accept();  
+			Connection c = new Connection(clientSocket);  
+			}  
+		} catch(IOException e) {System.out.println("Listen :"+e.getMessage());}  
 	}  
 }
 ```
