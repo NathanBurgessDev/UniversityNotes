@@ -125,4 +125,3 @@ class Connection extends Thread {
 	- blocking connect accept and receieve 
 	- for almost any application transfering data reliably and or in significant amounts
 		- HTTP, SSH, FTP, SMTP
--
