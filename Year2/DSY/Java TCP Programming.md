@@ -13,65 +13,92 @@
 import java.net.*;  
 import java.io.*;  
 public class TCPClient {  
-public static void main (String args[]) {  
-// arguments supply message and hostname of destination  
-Socket s = null;  
-try{  
-int serverPort = 7896;  
-s = new Socket(args[1], serverPort);  
-DataInputStream in = new DataInputStream( s.getInputStream() );  
-DataOutputStream out =  
-new DataOutputStream( s.getOutputStream() );  
-out.writeUTF(args[0]); // see encoding and representation  
-String data = in.readUTF();  
-System.out.println("Received: "+ data) ;  
-} catch (UnknownHostException e) {  
-System.out.println("Sock:"+e.getMessage());  
-} catch (EOFException e) {System.out.println("EOF:"+e.getMessage());  
-} catch (IOException e) {System.out.println("IO:"+e.getMessage());  
-} finally {if(s!=null) try {s.close();} catch (IOException e)  
-{System.out.println("close:"+e.getMessage());}}  
-}  
+	public static void main (String args[]) {  
+		// arguments supply message and hostname of destination  
+		Socket s = null;  
+		try{  
+			int serverPort = 7896;  
+			s = new Socket(args[1], serverPort);  
+			DataInputStream in = new DataInputStream( s.getInputStream() );  
+			DataOutputStream out =  
+			new DataOutputStream( s.getOutputStream() );  
+			out.writeUTF(args[0]); // see encoding and representation  
+			String data = in.readUTF();  
+			System.out.println("Received: "+ data) ;  
+		} catch (UnknownHostException e) {  
+		System.out.println("Sock:"+e.getMessage());  
+		} catch (EOFException e) {System.out.println("EOF:"+e.getMessage());  
+		} catch (IOException e) {System.out.println("IO:"+e.getMessage());  
+		} finally {if(s!=null) try {s.close();} catch (IOException e)  
+		{System.out.println("close:"+e.getMessage());}}  
+	}  
 }
 ```
-
+1. Make a Socket -> connect  
+(Unknown host / IO exception -> problem)  
+2. (Prepare input stream = from server)  
+3. (Prepare output stream = to server)  
+4. Write request bytes to output stream  
+5. Read response bytes from input stream  (EOF -> not enough input)  
+6. ...  
+7. Close socket -> terminate connection
 
 ### TCP Server 
+
+1. Make a ServerSocket with known port  
+2. (repeatedly...)  
+3. .accept a new client connection   represented by a new Socket  
+4. . ... (make a thread to handle that client
 ```Java
 import java.net.*;  
 import java.io.*;  
 public class TCPServer {  
-public static void main (String args[]) {  
-try{  
-int serverPort = 7896;  
-ServerSocket listenSocket = new ServerSocket(serverPort);  
-while(true) {  
-Socket clientSocket = listenSocket.accept();  
-Connection c = new Connection(clientSocket);  
-}  
-} catch(IOException e) {System.out.println("Listen :"+e.getMessage());}  
-}  
+	public static void main (String args[]) {  
+	try{  
+	int serverPort = 7896;  
+	ServerSocket listenSocket = new ServerSocket(serverPort);  
+	while(true) {  
+	Socket clientSocket = listenSocket.accept();  
+	Connection c = new Connection(clientSocket);  
+	}  
+	} catch(IOException e) {System.out.println("Listen :"+e.getMessage());}  
+	}  
 }
+```
+
+One instance per client:  
+1. (Prepare input stream = from client)  
+2. (Prepare output stream = to client)  
+3. (start client-specific thread)  
+4. Read request bytes from input stream  
+5. ...  
+6. Write response bytes to output stream  
+7. (EOF -> not enough input)  
+8. Close socket -> terminate connection  
+9. (terminate thread)
+
+```Java
 class Connection extends Thread {  
-DataInputStream in;  
-DataOutputStream out;  
-Socket clientSocket;  
-public Connection (Socket aClientSocket) {  
-try {  
-clientSocket = aClientSocket;  
-in = new DataInputStream( clientSocket.getInputStream() );  
-out =new DataOutputStream( clientSocket.getOutputStream() );  
-this.start();  
-} catch(IOException e) {System.out.println("Connection:"+e.getMessage());}  
-}  
-public void run(){  
-try { // an echo server  
-String data = in.readUTF();  
-out.writeUTF(data);  
-} catch(EOFException e) {System.out.println("EOF:"+e.getMessage());  
-} catch(IOException e) {System.out.println("IO:"+e.getMessage());  
-} finally{ try {clientSocket.close();}catch (IOException e){/*close failed*/}}  
-}  
+	DataInputStream in;  
+	DataOutputStream out;  
+	Socket clientSocket;  
+	public Connection (Socket aClientSocket) {  
+		try {  
+			clientSocket = aClientSocket;  
+			in = new DataInputStream( clientSocket.getInputStream() );  
+			out =new DataOutputStream( clientSocket.getOutputStream() );  
+			this.start();  
+		} catch(IOException e){
+			System.out.println("Connection:"+e.getMessage());}  
+	}  
+	public void run(){  
+		try { // an echo server  
+			String data = in.readUTF();  
+			out.writeUTF(data);  
+		} catch(EOFException e) {System.out.println("EOF:"+e.getMessage());  
+		} catch(IOException e) {System.out.println("IO:"+e.getMessage());  
+		} finally{ try {clientSocket.close();}catch (IOException e){/*close failed*/}}  
+	}  
 }
 ```
 ### TCP Considerations 

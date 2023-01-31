@@ -4,79 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "54e18689e8ab6dc6",
+        "id": "4e8cf749decd483c",
         "type": "tabs",
         "children": [
           {
-            "id": "e813c58e99d8dd3b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5a69845ab37d20a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Year2/LAC/Introduction.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c5c363d14a85e45d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Year2/DSY/Distributed Systems and the Client Server Model.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "19dba373330bbd57",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Year2/DSY/Distributed Systems and the Client Server Model.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "69ebca40758288d6",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Images/Pasted image 20230131112745.png"
-              }
-            }
-          },
-          {
-            "id": "191120c03f329d42",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Images/Pasted image 20230131112745.png"
-              }
-            }
-          },
-          {
-            "id": "82edc4fd38181e0a",
+            "id": "2fbfea19232c112a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -87,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -216,12 +147,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "82edc4fd38181e0a",
+  "active": "2fbfea19232c112a",
   "lastOpenFiles": [
+    "Year2/DSY/Java Socket Programming.md",
+    "Year2/DSY/Java TCP Programming.md",
     "Images/Pasted image 20230131111905.png",
     "Images/Pasted image 20230131112745.png",
-    "Year2/DSY/Java TCP Programming.md",
-    "Year2/DSY/Java Socket Programming.md",
     "Year2/DSY/Distributed Systems and the Client Server Model.md",
     "Year2/LAC/Introduction.md",
     "README.md"
