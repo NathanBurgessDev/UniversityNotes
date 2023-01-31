@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Year2/DSY/Client Server Java.md",
+                "file": "Year2/DSY/Distributed Systems and the Client Server Model.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,14 +49,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Year2/DSY/Client Server Java.md",
+                "file": "Year2/DSY/Distributed Systems and the Client Server Model.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "69ebca40758288d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Year2/DSY/IP Networking & Virtual Machines.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Year2/DSY/Client Server Java.md",
+                "file": "Year2/DSY/IP Networking & Virtual Machines.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Year2/DSY/Client Server Java.md",
+                "file": "Year2/DSY/IP Networking & Virtual Machines.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Year2/DSY/Client Server Java.md"
+                "file": "Year2/DSY/IP Networking & Virtual Machines.md"
               }
             }
           }
@@ -184,10 +196,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "19dba373330bbd57",
+  "active": "69ebca40758288d6",
   "lastOpenFiles": [
+    "Year2/DSY/Java Socket Programming.md",
     "Year2/DSY/IP Networking & Virtual Machines.md",
-    "Year2/DSY/Client Server Java.md",
+    "Year2/DSY/Distributed Systems and the Client Server Model.md",
     "Year2/LAC/Introduction.md",
     "README.md"
   ]

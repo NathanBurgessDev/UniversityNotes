@@ -28,3 +28,17 @@
 
 ### Examples 
 ![[Pasted image 20230131110818.png]]
+
+
+### Architecture 
+- What are the entities that are communicating 
+	- Often Operating System processes
+- How do they communciated (what paradigm)
+	- Often direct, request-response communication 
+- What (potentially changing) roles and responsibilities do they have in the overall architecture 
+	- Client and Server 
+- How are they mapped on to the physical distributed infrastructure (what is their **Placement**)
+	- On user desktop and cloud server 
+
+### Summary 
+![[Pasted image 20230131111151.png]]
