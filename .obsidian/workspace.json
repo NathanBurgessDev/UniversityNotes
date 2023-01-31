@@ -59,6 +59,26 @@
             "id": "69ebca40758288d6",
             "type": "leaf",
             "state": {
+              "type": "image",
+              "state": {
+                "file": "Images/Pasted image 20230131112745.png"
+              }
+            }
+          },
+          {
+            "id": "191120c03f329d42",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Images/Pasted image 20230131112745.png"
+              }
+            }
+          },
+          {
+            "id": "82edc4fd38181e0a",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "Year2/DSY/Java TCP Programming.md",
@@ -68,7 +88,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -196,10 +216,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "69ebca40758288d6",
+  "active": "82edc4fd38181e0a",
   "lastOpenFiles": [
-    "Year2/DSY/Java Socket Programming.md",
+    "Images/Pasted image 20230131111905.png",
+    "Images/Pasted image 20230131112745.png",
     "Year2/DSY/Java TCP Programming.md",
+    "Year2/DSY/Java Socket Programming.md",
     "Year2/DSY/Distributed Systems and the Client Server Model.md",
     "Year2/LAC/Introduction.md",
     "README.md"
