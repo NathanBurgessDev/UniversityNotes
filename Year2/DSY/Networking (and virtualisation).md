@@ -110,4 +110,30 @@
 ### VM & Container Networking Components
 ![[Pasted image 20230203123202.png]]
 
-### Virtual Machine & Container Networking op
+### Virtual Machine & Container Networking options
+![[Pasted image 20230203123235.png]]
+
+### The Cloud 
+- Software managed
+- On demand
+- Pay as you go 
+
+- Many different kinds of services available
+	![[Pasted image 20230203123339.png]]
+
+### SSH ( Secure SHell)
+- SSH is a network protocol allowing secure remote access hosts over TCP
+- An SSH server accepts and authenticates connections (port 22) against local users 
+- If successful - creates an **interactive shell** session running as that user 
+![[Pasted image 20230203123457.png]]
+
+### Low Level Networking Summary
+- Networking relies on **layered** stacks of protocols 
+- **Layer 1** deals with signals and direct communication
+- **Layer 2** deals with Single hop communciation
+
+### Internet Summary
+- Based on TCP IP 
+- Every host has at least 1 IP address
+- Any host can send a **packet** or **datagram** of data to any other host with **best effort** services
+- **Applications** within a signle host are identified by protocol specific port numb
