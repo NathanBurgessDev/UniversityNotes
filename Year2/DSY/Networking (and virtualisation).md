@@ -76,5 +76,35 @@
 - Routers have interfaces on two or more networks and forward packets from one network to the next
 - Host and routers have oruting tables
 	- identify for each destiniation IP address which interface / host to send it to next
-- Hosts and routers work together to deliver each packet to it
+- Hosts and routers work together to deliver each packet to its destination hop by hop
 
+### Host Configuration
+- Every host on the internet needs to know (for its routing table)
+	- ITs own IP
+	- IP address range on its local network
+	- Ip address of one or more routers (Often gcalled a gateway or default route)
+	- (Usually the IP address of a DNS server)
+- often discovered when the machine connects to a local network using **DHCP**
+- Severs may be statically configured 
+
+
+## Router Configuration 
+- Routers are partly configured statically with
+	- IP address for each of its own network interfaces
+	- IP address range for each directly connected network
+	- other...
+- Routers use **Routing Protocols** to exchange information with other routers
+	- OSPF within an orginization 
+	- BGP between oranisations
+	- To determine what routers and links exists, what networks are where and if links are down
+	- A routing algorithm can then build a complete routing table 
+
+### Expanded Java TCP example 
+![[Pasted image 20230203122614.png]]
+![[Pasted image 20230203122623.png]]
+
+
+## Virtual Machines, Containers, The Cloud and SSH
+
+### Machines, Virtual Machines and Containers 
+![[Pasted image 20230203122716.png]]
