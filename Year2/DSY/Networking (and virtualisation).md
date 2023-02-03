@@ -1,4 +1,6 @@
 
+## Networking 
+
 ### Layering
 
 - Lower layers provide services that higher layers build on 
@@ -21,3 +23,22 @@
 | 3     | Network      |
 | 2     | Data Link    |
 | 1     | Physical             |
+
+### Layer 1 / Layer 2
+- Each network can use a diff technology + have different bandwidth latency and reliability 
+- Each network interface has its own **Layer 2** Network address **MAC address**
+- Some networks allow a signle message to be physically sent to all machines on that network
+
+## The Internet 
+
+- Illusion of a single network provided to users and applications
+- Underlying physical structure wth routers interconnecting networks 
+- Based on **layer 3** and **layer 4** protocols + supports **layer 5** protocols (DNS, routing)
+- Provides a unifying point for almost any network application 
+	- doesnt care waht tech / protocol its build on (1 & 2 Layers)
+	- Doesnt care what applications it is used for (layer 5)
+
+### Typical Network Protocol Stack
+| Layer | Name | Common Protocols | Scope |
+| ----- | ---- | ---------------- | ----- |
+| 5     | Appl     |                  |       |
