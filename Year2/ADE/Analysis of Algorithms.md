@@ -44,6 +44,12 @@
 	- excact definition not important
 	- assumed to take a constant amount of time IN **RAM MODEL**
 
+#### Counting Primitive Operations 
+![[Pasted image 20230203171529.png]]
+
+- Can determine the max number of primitive operations executed by an algorithm
+- 
+
 ### RAM Model
 
 - A CPU
@@ -52,4 +58,22 @@
 #### Limitations 
 - cant expect to store really large numbers in a single memory cell
 - We ignore bigum issues
+
+### Counting 
+
+- Underspecified 
+- Consider c = A[i]
+	- get A = pointer to start of array A, and store into a  register  
+	-  get i, and store into a register  
+	- compute A+i = pointer to location of A[i], and store  back into a register  
+	- get value of “*(A+i)” (from RAM) and store value it  into a register  
+	- copy the value into the location of c in the RAM
+- might not want to count all this, e.g. just count  
+	- ‘plus’ of “A+i”  
+	- the assignment
+
+### Correctness vs Efficiency 
+
+- Pimitive operation counting is relevant to Efficiency but not for Correctness
+- Correctness do not care about tuntime 
 - 
