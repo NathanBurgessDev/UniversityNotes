@@ -136,4 +136,19 @@
 - Based on TCP IP 
 - Every host has at least 1 IP address
 - Any host can send a **packet** or **datagram** of data to any other host with **best effort** services
-- **Applications** within a signle host are identified by protocol specific port numb
+- **Applications** within a signle host are identified by protocol specific port numbers
+
+### Network Configuartion SUmmary
+- Each physical has its own rnage of IP addresses
+- Each interface on that network has its own IP address
+- Routers forward packets between networks 
+- Hosts and routers have rotuing tables which determine where to send a packet next 
+
+### VM, Containers and the CLoud Summary
+- A **Hypervisor** allows efficent virtualization of a single computer to create multiple isolated **Virtual Machines**
+	- Each VM has its own operating System
+- A single machine can run multiple **containers** which share the same OS kernel but have a separate runtime and (generally) run one application 
+- Each VM or container has it's own **virtual network interface** and IP address
+	- These may be visable directly on the physical network
+	- or only on a local virtual network with slected ports exposed through **network address translation**
+-
