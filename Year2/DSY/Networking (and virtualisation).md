@@ -47,7 +47,8 @@
 | 2     | Network Interface (Link) | 802.11 - Ethernet, WiFi | Single hop communication    |
 | 1     | Physical                 | Ethernet PHY, ADSL,...  | Signals & Physics                            |
 
-![[Pasted image 20230203121506.png]]
+### layer 3 as seen from Layer 4
+![[Pasted image 20230203122915.png]]
 
 ### Internet Model
 - Every networked machine is a node or host
@@ -58,9 +59,8 @@
 - Packets may be lost, delayed corrupted or duplicated, although there is some checking for corrupted data
 	- **best effort service**
 
-### The internet: layer 3 as seen from layer 4
-![[Pasted image 20230203121905.png]]
-
+### Layer 4 as seen from Layer 5
+![[Pasted image 20230203123036.png]]
 
 ### TCP and UDP: Streams and messages
 - Applications dont use IP directly
@@ -100,11 +100,14 @@
 	- A routing algorithm can then build a complete routing table 
 
 ### Expanded Java TCP example 
-![[Pasted image 20230203122614.png]]
-![[Pasted image 20230203122623.png]]
-
-
+![[Pasted image 20230203123101.png]]
+![[Pasted image 20230203123114.png]]
 ## Virtual Machines, Containers, The Cloud and SSH
 
 ### Machines, Virtual Machines and Containers 
-![[Pasted image 20230203122716.png]]
+![[Pasted image 20230203122806.png]]
+
+### VM & Container Networking Components
+![[Pasted image 20230203123202.png]]
+
+### Virtual Machine & Container Networking op
