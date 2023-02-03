@@ -76,4 +76,25 @@
 
 - Pimitive operation counting is relevant to Efficiency but not for Correctness
 - Correctness do not care about tuntime 
-- 
+
+
+### Estimating Run time 
+
+- Algorithm `arrayMax` executes `8n − 4` primitive  
+	operations in the worst case. Define:  
+- a = Time taken by the fastest primitive operation  
+- b = Time taken by the slowest primitive operation
+
+- Let T(n) be worst-case time of arrayMax. Then  
+- a (8n − 4) $\leq$ T(n) $\leq$ b(8n − 4)
+
+Hence, T(n) is bounded ‘above and below’ by  
+two linear functions  
+• Usually said as “  
+arrayMax runs in linear time”
+
+### Growth Rate of Running Time
+- Changingthe hardware / software enviroment
+	- affects `T(n)` by a constant factor
+	- does not alter the growth rate of `T(n)`
+- Linear growth rate of the running time `T(n)` is an instrinsic property of `arrayMax`
