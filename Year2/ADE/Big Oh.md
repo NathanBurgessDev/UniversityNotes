@@ -14,4 +14,8 @@
 - Given positive functions $f(n)$ and $g(n)$ then we say that
 	- $f(n)$ is $O(g(n))$
 - If and only if there exist positive constants $c$ and $n0$ such that
-	- $f(n) 
+	- $f(n) \leq c g(n)$ for all $n \geq n 0$
+
+- i.e.
+- $\exists c>0. \exists n0.$ such that $\forall$ $n$ $\geq$ $n0. f(n)$ $\leq$ $c g(n)$
+
