@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "952bdef1b540ee67",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Year2/LAC/Determinisitc Finite Automata (DFA).md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Year2/ADE/Big Oh.md",
+                "file": "Year2/LAC/Determinisitc Finite Automata (DFA).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Year2/ADE/Big Oh.md",
+                "file": "Year2/LAC/Determinisitc Finite Automata (DFA).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Year2/ADE/Big Oh.md"
+                "file": "Year2/LAC/Determinisitc Finite Automata (DFA).md"
               }
             }
           }
@@ -173,8 +185,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "13b7c007e1782189",
+  "active": "952bdef1b540ee67",
   "lastOpenFiles": [
+    "Year2/ADE/Big Oh.md",
     "Year2/ADE/Analysis of Algorithms.md",
     "Year2/DSY/Networking (and virtualisation).md",
     "Images/Pasted image 20230203121506.png.md",
@@ -183,7 +196,6 @@
     "Images/Pasted image 20230203122614.png",
     "Images/Pasted image 20230131112745.png",
     "Images/Pasted image 20230203121506.png",
-    "Images/Pasted image 20230131111151.png",
-    "Images/Pasted image 20230131110818.png"
+    "Images/Pasted image 20230131111151.png"
   ]
 }
