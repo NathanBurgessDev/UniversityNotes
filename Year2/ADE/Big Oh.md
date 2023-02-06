@@ -19,5 +19,5 @@
 - i.e.
 - $\exists c>0. \exists n0.$ such that $\forall$ $n$ $\geq$ $n0. f(n)$ $\leq$ $c g(n)$
 
-
 ![[Pasted image 20230206122529.png]]
+
