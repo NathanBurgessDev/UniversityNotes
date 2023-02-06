@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "13b7c007e1782189",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Year2/ADE/Big O.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Year2/ADE/Analysis of Algorithms.md",
+                "file": "Year2/ADE/Big O.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Year2/ADE/Analysis of Algorithms.md",
+                "file": "Year2/ADE/Big O.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Year2/ADE/Analysis of Algorithms.md"
+                "file": "Year2/ADE/Big O.md"
               }
             }
           }
@@ -161,8 +173,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3507337c3c32c0c4",
+  "active": "13b7c007e1782189",
   "lastOpenFiles": [
+    "Year2/ADE/Analysis of Algorithms.md",
     "Year2/DSY/Networking (and virtualisation).md",
     "Images/Pasted image 20230203121506.png.md",
     "Images/Pasted image 20230203122623.png",
@@ -171,7 +184,6 @@
     "Images/Pasted image 20230131112745.png",
     "Images/Pasted image 20230203121506.png",
     "Images/Pasted image 20230131111151.png",
-    "Images/Pasted image 20230131110818.png",
-    "Pasted image 20230203122716.png"
+    "Images/Pasted image 20230131110818.png"
   ]
 }
