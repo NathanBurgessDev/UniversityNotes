@@ -29,4 +29,13 @@
 - All the parts of a distrobuted system have to work together even if some are made differently 
 	- different network technoligies, CPUs, architectures, operating systems, programming languages, developers 
 - Typicaly this will mean using common protocols, interfaces and encodings 
+- Example
+- Java Data I/O streams 
+
+### [[Request Reply#Distributed System Challenges|Failure Handling]]
+
+- Can fail in complicated ways
+- coping with failure reuires
+	- redundency
+	- means of detecting and respodning to partial failiures
 - 
