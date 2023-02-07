@@ -12,3 +12,9 @@
 - Each layer in the [[Networking (and virtualisation)#Typical Network Protocol Stack|protocol stack]]
 - Has its own set of protocols 
 
+### Distributed System Challenges
+- Common challenges
+	- **Heterogeneity** - copying with system component variability
+	- **Failure Handling** - coping with partial failure 
+	- **Concurrency** - correctness and performance with concurrency 
+- 
