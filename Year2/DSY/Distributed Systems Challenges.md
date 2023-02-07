@@ -19,7 +19,7 @@
 - Example
 	- Java Data I/O streams 
 
-### [[Network Protocols#Distributed System Challenges|Failure Handling]]
+### [[Distributed Systems Challenges#Challenges|Failure Handling]]
 
 - Can fail in complicated ways
 - coping with failure reuires
@@ -28,7 +28,7 @@
 - Example
 	- Simple TCP server
 
-### [[Network Protocols#Distributed System Challenges|Concurrency]]
+### [[Distributed Systems Challenges#Challenges|Concurrency]]
 - Different processes in a distrbuted system normally run concurrently
 - This may require additional checks and communication to ensure global consistency 
 	- can limit performance or scalabilty 
