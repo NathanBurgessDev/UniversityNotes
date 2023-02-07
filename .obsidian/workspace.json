@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Year2/DSY/Request Reply.md",
+                "file": "Year2/DSY/Distributed Systems Challenges.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Year2/DSY/Request Reply.md",
+                "file": "Year2/DSY/Distributed Systems Challenges.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Year2/DSY/Request Reply.md",
+                "file": "Year2/DSY/Distributed Systems Challenges.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Year2/DSY/Request Reply.md"
+                "file": "Year2/DSY/Distributed Systems Challenges.md"
               }
             }
           }
@@ -150,15 +150,15 @@
   },
   "active": "952bdef1b540ee67",
   "lastOpenFiles": [
+    "Year2/DSY/Distributed Systems and the Client Server Model.md",
+    "Year2/DSY/Distributed Systems Challenges.md",
     "Year2/DSY/Networking (and virtualisation).md",
-    "Year2/DSY/Request Reply.md",
+    "Year2/DSY/Network Protocols.md",
     "Year2/LAC/Introduction.md",
     "Year2/LAC/Determinisitc Finite Automata (DFA).md",
     "protocol stack.md",
     "[[.md",
     "Year2/ADE/Big Oh.md",
-    "Year2/ADE/Analysis of Algorithms.md",
-    "Images/Pasted image 20230203121506.png.md",
-    "Images/Pasted image 20230203122623.png"
+    "Year2/ADE/Analysis of Algorithms.md"
   ]
 }

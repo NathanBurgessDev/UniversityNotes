@@ -1,18 +1,5 @@
 
-### Network Protocol 
-
-- Set of fules about how to communicate 
-	- what a service user can ask for
-	- what info to send
-	- when to send it
-	- how to encode the info
-	- what to do when something goes wrong 
-
-### Network Protocol Stacks
-- Each layer in the [[Networking (and virtualisation)#Typical Network Protocol Stack|protocol stack]]
-- Has its own set of protocols 
-
-### Distributed System Challenges
+### Challenges
 - Common challenges
 	- **Heterogeneity** - copying with system component variability
 	- **Failure Handling** - coping with partial failure 
@@ -24,18 +11,30 @@
 	- Transparency 
 	- Quality of Service
 
-### [[Request Reply#Distributed System Challenges|Heterogeneity]]
+### [[Distributed Systems Challenges#Challenges|Heterogeneity]]
 
 - All the parts of a distrobuted system have to work together even if some are made differently 
 	- different network technoligies, CPUs, architectures, operating systems, programming languages, developers 
 - Typicaly this will mean using common protocols, interfaces and encodings 
 - Example
-- Java Data I/O streams 
+	- Java Data I/O streams 
 
-### [[Request Reply#Distributed System Challenges|Failure Handling]]
+### [[Network Protocols#Distributed System Challenges|Failure Handling]]
 
 - Can fail in complicated ways
 - coping with failure reuires
 	- redundency
 	- means of detecting and respodning to partial failiures
-- 
+- Example
+	- Simple TCP server
+
+### [[Network Protocols#Distributed System Challenges|Concurrency]]
+- Different processes in a distrbuted system normally run concurrently
+- This may require additional checks and communication to ensure global consistency 
+	- can limit performance or scalabilty 
+- OR use alternative but less consistent approaches
+	- loosely couples / optimisitc solutions 
+- Example
+	- TCP server is multi threaded
+	- can server multipele clients concurrently 
+
