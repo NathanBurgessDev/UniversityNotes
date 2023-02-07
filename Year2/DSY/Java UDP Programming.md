@@ -28,18 +28,18 @@ public class UDPClient{
 		// args give message contents and server hostname  
 		DatagramSocket aSocket = null;  
 		try {  
-		aSocket = new DatagramSocket();  
-		byte [] m = args[0].getBytes();  
-		InetAddress aHost = InetAddress.getByName(args[1]);  
-		int serverPort = 6789;  
-		DatagramPacket request = new DatagramPacket(m, m.length(), aHost,  
-		serverPort);  
-		aSocket.send(request);  
-		byte[] buffer = new byte[1000];  
-		DatagramPacket reply = new DatagramPacket(buffer, buffer.length);  
-		aSocket.receive(reply);  
-		System.out.println("Reply: " + new String(reply.getData()));  
-		} catch (SocketException e){System.out.println("Socket: " + e.getMessage());  
+			aSocket = new DatagramSocket();  
+			byte [] m = args[0].getBytes();  
+			InetAddress aHost = InetAddress.getByName(args[1]);  
+			int serverPort = 6789;  
+			DatagramPacket request = new DatagramPacket(m, m.length(), aHost,  
+			serverPort);  
+			aSocket.send(request);  
+			byte[] buffer = new byte[1000];  
+			DatagramPacket reply = new DatagramPacket(buffer, buffer.length);  
+			aSocket.receive(reply);  
+			System.out.println("Reply: " + new String(reply.getData()));  
+			} catch (SocketException e){System.out.println("Socket: " + e.getMessage());  
 		} catch (IOException e){System.out.println("IO: " + e.getMessage());  
 		} finally {if(aSocket != null) aSocket.close();}  
 	}  
@@ -48,3 +48,49 @@ public class UDPClient{
 
 ### UDP Server 
 
+- Repeatedly receives a request and sends it back to the client
+- single threaded (note)
+1. Make a DatagramSocket with known port  
+2. (repeatedly...)  
+3. Make an empty DatagramPacket  
+4. .receive the next UDP packet into that DatagramPacket  
+5. ...  
+6. Make a DatagramPacket with payload and destination (client) host & port  
+7. .send the DatagramPacket as a UDP packet
+
+``` Java
+import java.net.*;  
+import java.io.*;  
+public class UDPServer{  
+	public static void main(String args[]){  
+		DatagramSocket aSocket = null;  
+		try{  
+			aSocket = new DatagramSocket(6789);  
+			byte[] buffer = new byte[1000];  
+			while(true){  
+				DatagramPacket request = new DatagramPacket(buffer, buffer.length);  
+				aSocket.receive(request);  
+				DatagramPacket reply = new DatagramPacket(request.getData(),  
+				request.getLength(), request.getAddress(), request.getPort());  
+				aSocket.send(reply);  
+			}  
+		} catch (SocketException e){System.out.println("Socket: " + e.getMessage());  
+		} catch (IOException e) {System.out.println("IO: " + e.getMessage());}  
+		} finally {if(aSocket != null) aSocket.close();}  
+	}  
+}
+```
+
+
+### Considerations 
+
+- **Message Size**
+	- Hard limit of 65508 Bytes
+	- often 8k or less
+		- larger messages are broken into smaller fragments
+		- reassembled by the receiver if / when all are received
+		- less reliable
+- **Blocking**
+- **Receive from any**
+- **Failure model- best effort**
+- **Uses**
