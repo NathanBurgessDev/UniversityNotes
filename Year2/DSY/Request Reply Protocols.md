@@ -52,4 +52,15 @@
 		- with other operations the server shoudld not execute a duplicate request twice
 		- so the result(s) are held in a history and re-sent back to the client if a duplicate request is received 
 
-#
+### TCP vs UDP
+
+| TCP                         | UD                                                       |
+| --------------------------- | -------------------------------------------------------- |
+| Establish connection first  | No connection overhead                                   |
+| Request = stream of bytes   | Request = 1 message                                      |
+| Reply = stream of bytes     | Reply = 1 message                                        |
+| No size limit               | limited to a few kB  (fragmentation mangifies loss rate) |
+| Reliably delivered in order | May be lost or out of order                              |
+| HTTP, SMTP                  | DNS, DHCP                                                |
+
+
