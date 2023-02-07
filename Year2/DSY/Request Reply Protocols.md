@@ -14,4 +14,14 @@
 	- IP address
 	- Port number
 	- Other 
-- Server m
+- Server may support several different operations
+	- Specificed by operation ID
+	- e.g. index of operation, operation name 
+- Client and server must agree on how arguemtns are encoded 
+- Client normally blocks until the responce is received 
+	- Can be **reply-less** (one way) or **asynchronous** 
+
+### Message Structure 
+
+- 
+
