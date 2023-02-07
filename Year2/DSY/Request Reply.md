@@ -9,5 +9,6 @@
 	- what to do when something goes wrong 
 
 ### Network Protocol Stacks
-- Each layer in the [[protocol stack]]
-- 
+- Each layer in the [[Networking (and virtualisation)#Typical Network Protocol Stack|protocol stack]]
+- Has its own set of protocols 
+
