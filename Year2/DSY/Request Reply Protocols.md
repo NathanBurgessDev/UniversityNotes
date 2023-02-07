@@ -29,4 +29,27 @@
 
 - Message Identifiers 
 	- Each request is given a unique ID 
-	- 
+		- Sender Assigned sequence numbers - *requestid*
+		- Sender Identification - IP and Port 
+	- Used to
+		- Match responces to requests - at client
+		- Detect duplicate requests / responces 
+- Failure Model
+	- can suffer from communication omission faults
+		- Lost request or reply
+	- process omission faults
+		- server or client crash
+- Timeouts
+	- Client typically uses a timeout to detect a missing reply
+		- client retransmits the request
+		- but the problem could be a lost request, lost reply or crashed server
+- Duplicate request messages 
+	- can be detected in the server from the duplicate message identifier
+		- if the responce has not been sent yet then no action is needed
+		- if the responce has already been sent then the responce will need to be sent again
+- History
+	- with *indempotent* operations performing the operation twice makes no difference 
+		- with other operations the server shoudld not execute a duplicate request twice
+		- so the result(s) are held in a history and re-sent back to the client if a duplicate request is received 
+
+#
