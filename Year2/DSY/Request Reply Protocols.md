@@ -23,5 +23,10 @@
 
 ### Message Structure 
 
-- 
+![[Pasted image 20230207144806.png]]
 
+### Implementation Notes
+
+- Message Identifiers 
+	- Each request is given a unique ID 
+	- 
