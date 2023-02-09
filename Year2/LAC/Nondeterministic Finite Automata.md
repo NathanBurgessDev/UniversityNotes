@@ -13,6 +13,9 @@ $NFA = \{Q,\Sigma, \sigma, S, F\}$
 
 $Q = \{0,1,2,3,4,5\}$
 $\Sigma = \{a,b,c\}$
-$\sigma : Q x \Sigma -> 
+$\sigma : Q x \Sigma -> P Q$
+$Q -> \Sigma -> Q -> Prop$
+
+			   
 
 
