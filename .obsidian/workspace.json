@@ -49,14 +49,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Year2/LAC/Nondeterministic Finite Automata.md",
+                "file": "Year2/DSY/Java UDP Programming.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e6d1ca7ffb4f4eab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Year2/DSY/External data representation and marshalling.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Year2/LAC/Nondeterministic Finite Automata.md",
+                "file": "Year2/DSY/External data representation and marshalling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Year2/LAC/Nondeterministic Finite Automata.md",
+                "file": "Year2/DSY/External data representation and marshalling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Year2/LAC/Nondeterministic Finite Automata.md"
+                "file": "Year2/DSY/External data representation and marshalling.md"
               }
             }
           }
@@ -185,17 +197,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a482897a722454fe",
+  "active": "e6d1ca7ffb4f4eab",
   "lastOpenFiles": [
     "Year2/DSY/Java UDP Programming.md",
-    "Year2/DSY/Request Reply Protocols.md",
     "Year2/DSY/Distributed Systems Challenges.md",
     "Year2/DSY/Distributed Systems and the Client Server Model.md",
+    "Year2/DSY/Request Reply Protocols.md",
+    "Year2/LAC/Nondeterministic Finite Automata.md",
     "Year2/DSY/Networking (and virtualisation).md",
     "Year2/DSY/Network Protocols.md",
     "Year2/LAC/Introduction.md",
     "Year2/LAC/Determinisitc Finite Automata (DFA).md",
-    "protocol stack.md",
-    "[[.md"
+    "protocol stack.md"
   ]
 }

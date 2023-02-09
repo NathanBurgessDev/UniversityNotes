@@ -1,0 +1,2 @@
+- Networks just transport streams or blocks of bytes 
+- Applicat

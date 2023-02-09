@@ -91,6 +91,20 @@ public class UDPServer{
 		- reassembled by the receiver if / when all are received
 		- less reliable
 - **Blocking**
+	- Receive blocks normally until a message is received
+		- A socket timeout can be specified 
 - **Receive from any**
+	- normaly a socket will accept messages from any sender 
 - **Failure model- best effort**
+	- Check sums detect most corruption 
+	- Messages may be dropped
+		- Corruption
+		- no space in buffer at end of system
+		- network congestion
+		- messages may arrive out of order
+		- messages may occasionally be duplicated 
 - **Uses**
+	- Small messages and simple interactions 
+	- Avoids overheads of TCP
+	- More complex applications require application to implement flow and congestion control
+	- Supports Multicast communication 
