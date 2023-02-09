@@ -40,7 +40,13 @@
 - Thresholding 
 ![[Pasted image 20230209155644.png]]
 
+### Grey Level Slicing 
 
+![[Pasted image 20230209160223.png]]
+![[Pasted image 20230209160232.png]]
 
+### Gamma Correction 
 
-
+- When an image is displayed on a screen the hardware used effectively applies an intensity transform 
+- You send a voltage proportional to the intesnity of a pixel, the screen displays an intensity that is related to that but now how you may think
+![[Pasted image 20230209160335.png]]
