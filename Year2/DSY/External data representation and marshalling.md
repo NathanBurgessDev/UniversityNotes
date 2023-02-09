@@ -1,2 +1,5 @@
 - Networks just transport streams or blocks of bytes 
-- Applicat
+- Applications must agree on how data withina program will be represented as bytes on a network 
+	- what encoding of an integer what character set for a character how to identify an object how to represent an array, how to represent a request
+- **Marshalling** - process of converting program data to network form
+- 
