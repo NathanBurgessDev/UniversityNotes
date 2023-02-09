@@ -24,7 +24,8 @@ $F = \{1,2,3\}$
 
 $\hat \sigma : Q \rightarrow \Sigma* \rightarrow Q \rightarrow Prop$
 
-$\hat \sigma q xw q' = \exists q'' : Q, \sigma q ×
+$\hat \sigma: q , xw , q' = \exists q'' : Q, \sigma q × q'' \land \hat \sigma q'' w q'$
+
 
 
 
