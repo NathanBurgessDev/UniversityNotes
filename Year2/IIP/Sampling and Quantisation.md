@@ -28,4 +28,20 @@
 - Determines the umber of levels of color  intesity to be represented at each pixel
 - Sampling and quantisation occur naturally during image acquisition but can also be applied to existing images 
 
-## Re-Samplin
+## Re-Sampling 
+
+- Most basic form of image processing 
+![[Pasted image 20230209140349.png]]
+- **Downsampling** - need to compute a summary pixel value from each local area 
+	- mean / weighted mean etc
+
+![[Pasted image 20230209140432.png]]
+- **Upsampling** - need to interpolate from the known values to produce an estimate at the unknown pixels 
+	- Average the known values in a local region centred on each unknown pixel, fit some kind of function through known values 
+
+## Re-quantisation 
+- Pixel valuesa re integers in a fixed range 
+- Grey level resolution can be dropped by dividing each pixel value by a constant 
+	- there is a side effect
+	- cant increase grey level resolution of a single pixel
+- **Super-resolution methods** exist that combine multiple exposures of the same scene so have more than one measurement of each pixel 
