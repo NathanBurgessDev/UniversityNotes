@@ -14,11 +14,18 @@
 
 ### Aliasing 
 - Occurs when two signals become indistinguishable when sampled
-- In our case the two signals are the true image (the image that would be seen if there were no quantisation) and the one reconstructed by t
+- In our case the two signals are the true image (the image that would be seen if there were no quantisation) and the one reconstructed by the human vision system from a sampled image 
 
+### Anti-aliasing 
+- Aliasing can be introduced when an image is resampled, if the sampling rate of the new image is less than the Nyqust rate of the original 
+- Smooth out high frequency signals before sampling so its imossible to see the alias 
 
-### Quantisation
+## Quantisation
 - Digitisation of the *light intensity function*
 - Determines *grey level, colour or radiometic resolution*
 
+- How many grey levels to store
+- Determines the umber of levels of color  intesity to be represented at each pixel
+- Sampling and quantisation occur naturally during image acquisition but can also be applied to existing images 
 
+## Re-Samplin
