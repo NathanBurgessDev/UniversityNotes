@@ -21,3 +21,11 @@
 
 - We dont always need all 3 colour values
 - Human skin is tightly clustered in HS space
+- ![[Pasted image 20230209151713.png]]
+
+### Key Points
+- Colir values are often interpolated
+	- cant assume they are 100% reliable
+- Colour space transformation is an example of a **point process** alterantive 3D colour spaces exist
+- Not all applications require all 3 colour planes to be considered 
+
