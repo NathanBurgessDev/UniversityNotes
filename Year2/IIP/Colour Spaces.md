@@ -8,4 +8,16 @@
 ### HSV
 - based on colour rather than light
 	- **Hue** what general colour is it
-	- ****
+	- **Saturation** how stringly coloured is it
+	- **Value** how bright or dark is it 
+
+### HSV Space 
+![[Pasted image 20230209144643.png]]
+
+**Example**
+![[Pasted image 20230209144705.png]]
+
+### Hue, Saturation and Skin
+
+- We dont always need all 3 colour values
+- Human skin is tightly clustered in HS space
