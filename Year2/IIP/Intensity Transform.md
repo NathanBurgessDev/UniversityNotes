@@ -23,6 +23,24 @@
 
 ![[Pasted image 20230209155334.png]]
 
+### Dynamic Range 
+- Digital images are sampled 
+	- contain a fixed number of data values
+- Digital image representations can only store a fixed number of values
+- Itensity transforms can produce values that are
+	- outside that range so cant be stroed
+	- clustered in a small part of that range and so are hard to distinguish
+- Some intensity transforms need data in a particular range 
+
+### Contrast Stretching 
+- To convert a source image in which intensities range from min to max to one in which they range from min to max 
+![[Pasted image 20230209155553.png]]
+
+### Non-linear Transforms 
+- Thresholding 
+![[Pasted image 20230209155644.png]]
+
+
 
 
 
