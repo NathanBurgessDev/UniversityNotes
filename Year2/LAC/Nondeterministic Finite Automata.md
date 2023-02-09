@@ -13,16 +13,19 @@ $NFA = \{Q,\Sigma, \sigma, S, F\}$
 
 $Q = \{0,1,2,3,4,5\}$
 $\Sigma = \{a,b,c\}$
-$\sigma : Q × \Sigma -> P Q$
-$Q -> \Sigma -> Q -> Prop$
-$S \subsetq Q (S:Q-> Prop)$
+$\sigma : Q × \Sigma \rightarrow P Q$
+$Q \rightarrow \Sigma \rightarrow Q \rightarrow Prop$
+$S \subseteq Q (S:Q \rightarrow Prop)$
 $S = {0,4}$
-$F \subset Q ( F : Q -> Prop)$
+$F \subseteq Q ( F : Q \rightarrow Prop)$
 $F = \{1,2,3\}$
 
 ![[Pasted image 20230209113300.png]]
 
+$\hat \sigma : Q \rightarrow \Sigma* \rightarrow Q \rightarrow Prop$
 
-			   
+$\hat \sigma q xw q' = \exists q'' : Q, \sigma q ×
+
+
 
 
