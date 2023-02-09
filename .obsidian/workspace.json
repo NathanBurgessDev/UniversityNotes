@@ -90,9 +90,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b1d7d5b62de52ac0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Year2/IIP/Colour Spaces.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -158,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Year2/IIP/Acquiring Colour Images.md",
+                "file": "Year2/IIP/Colour Spaces.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Year2/IIP/Acquiring Colour Images.md",
+                "file": "Year2/IIP/Colour Spaces.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Year2/IIP/Acquiring Colour Images.md"
+                "file": "Year2/IIP/Colour Spaces.md"
               }
             }
           }
@@ -221,8 +233,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "52d79a948e6596af",
+  "active": "b1d7d5b62de52ac0",
   "lastOpenFiles": [
+    "Year2/IIP/Acquiring Colour Images.md",
     "Year2/IIP/Sampling and Quantisation.md",
     "Year2/DSY/External data representation and marshalling.md",
     "Year2/DSY/Java UDP Programming.md",
@@ -231,7 +244,6 @@
     "Year2/DSY/Request Reply Protocols.md",
     "Year2/LAC/Nondeterministic Finite Automata.md",
     "Year2/DSY/Networking (and virtualisation).md",
-    "Year2/DSY/Network Protocols.md",
-    "Year2/LAC/Introduction.md"
+    "Year2/DSY/Network Protocols.md"
   ]
 }
