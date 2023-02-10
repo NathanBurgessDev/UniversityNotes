@@ -17,5 +17,20 @@
 	- verifying the identify of the pronciple behind each request
 - The **client** may
 	- check the identify of the principle behind the server 
-	- to ensure 
-- 
+	- to ensure that the result comes from the required server 
+
+### Securing processes and communication 
+
+- Need to secure the processes themselves
+	- protceted from direct interference from other processes on that machine
+- Processes also interact by sending messages
+	- messages are exposed to attack on the network
+	- Server and eer processes expose their interfaces exposing them to attack from other processes 
+
+
+###  Network Threat model
+- To model network security threats we postulate an enemy 
+	- Capable of sending any message to any process
+	- reading or copying any message sent between a pair of processes
+
+ ![[Pasted image 20230210145918.png]]
