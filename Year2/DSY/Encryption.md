@@ -11,3 +11,5 @@
 	- private key is secret
 	- public key published along with the name of the user 
 - Either key can encrypt a message but the other key is needed to decrypt it 
+	- A message encrypted with a private key can be decrypted by anyone 
+
