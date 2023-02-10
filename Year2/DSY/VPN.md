@@ -12,4 +12,5 @@
 ### Personal VPN
 - used s othat the computer appears to be on the CPN servers network
 - VPN routers exist 
-- VPN router/ client intercepts normal network communication and sends it over an enc
+- VPN router/ client intercepts normal network communication and sends it over an encrypted session to the VPN server 
+	
