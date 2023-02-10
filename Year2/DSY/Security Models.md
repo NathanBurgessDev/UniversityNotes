@@ -34,3 +34,4 @@
 	- reading or copying any message sent between a pair of processes
 
  ![[Pasted image 20230210145918.png]]
+
