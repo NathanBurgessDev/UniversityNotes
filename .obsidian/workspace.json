@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "64a0dc7f804a6042",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Year2/DSY/Encryption and VPNs.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Year2/DSY/Network exploits and attacks.md",
+                "file": "Year2/DSY/Encryption and VPNs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Year2/DSY/Network exploits and attacks.md",
+                "file": "Year2/DSY/Encryption and VPNs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Year2/DSY/Network exploits and attacks.md"
+                "file": "Year2/DSY/Encryption and VPNs.md"
               }
             }
           }
@@ -161,8 +173,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b24ca26bcf25f7cb",
+  "active": "64a0dc7f804a6042",
   "lastOpenFiles": [
+    "Year2/DSY/Network exploits and attacks.md",
     "Year2/DSY/Security Models.md",
     "Year2/IIP/Intensity Transform.md",
     "Year2/IIP/Colour Spaces.md",
@@ -171,7 +184,6 @@
     "Year2/DSY/External data representation and marshalling.md",
     "Year2/DSY/Java UDP Programming.md",
     "Year2/DSY/Distributed Systems Challenges.md",
-    "Year2/DSY/Distributed Systems and the Client Server Model.md",
-    "Year2/DSY/Request Reply Protocols.md"
+    "Year2/DSY/Distributed Systems and the Client Server Model.md"
   ]
 }
