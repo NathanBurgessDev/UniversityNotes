@@ -13,4 +13,9 @@
 ![[Pasted image 20230210144626.png]]
 
 - The **server** is responsible for
-	- encof
+	- encofrcing access rights of each object
+	- verifying the identify of the pronciple behind each request
+- The **client** may
+	- check the identify of the principle behind the server 
+	- to ensure 
+- 
