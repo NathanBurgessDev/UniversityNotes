@@ -50,3 +50,10 @@
 - When an image is displayed on a screen the hardware used effectively applies an intensity transform 
 - You send a voltage proportional to the intesnity of a pixel, the screen displays an intensity that is related to that but now how you may think
 ![[Pasted image 20230209160335.png]]
+- We need to transform the image so that it generates a coltage which will display what we want
+- create a new imagine in which 
+![[Pasted image 20230209160410.png]]
+- Gamma Correction because the equation is usually written
+- $g(x,y) = f(x,y)^Y$
+
+- 

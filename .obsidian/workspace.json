@@ -4,119 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "4429fe702f7d9ad7",
+        "id": "d0b2b05c39da7da1",
         "type": "tabs",
         "children": [
           {
-            "id": "952bdef1b540ee67",
+            "id": "65b8b58a95dac6bb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Year2/DSY/Distributed Systems Challenges.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aa916e1b96e7f92c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Year2/DSY/Request Reply Protocols.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5a636a4464230ed2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Year2/DSY/Java UDP Programming.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a482897a722454fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Year2/DSY/Java UDP Programming.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e6d1ca7ffb4f4eab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Year2/DSY/External data representation and marshalling.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e97a6e6f0acc60fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Year2/IIP/Sampling and Quantisation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "52d79a948e6596af",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Year2/IIP/Acquiring Colour Images.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b1d7d5b62de52ac0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Year2/IIP/Colour Spaces.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3e291c116725a163",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Year2/IIP/Intensity Transform.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 8
+        ]
       }
     ],
     "direction": "vertical"
@@ -182,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Year2/IIP/Intensity Transform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Year2/IIP/Intensity Transform.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -221,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Year2/IIP/Intensity Transform.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -245,8 +140,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3e291c116725a163",
+  "active": "65b8b58a95dac6bb",
   "lastOpenFiles": [
+    "Year2/IIP/Intensity Transform.md",
     "Year2/IIP/Colour Spaces.md",
     "Year2/IIP/Acquiring Colour Images.md",
     "Year2/IIP/Sampling and Quantisation.md",
@@ -255,7 +151,6 @@
     "Year2/DSY/Distributed Systems Challenges.md",
     "Year2/DSY/Distributed Systems and the Client Server Model.md",
     "Year2/DSY/Request Reply Protocols.md",
-    "Year2/LAC/Nondeterministic Finite Automata.md",
-    "Year2/DSY/Networking (and virtualisation).md"
+    "Year2/LAC/Nondeterministic Finite Automata.md"
   ]
 }
