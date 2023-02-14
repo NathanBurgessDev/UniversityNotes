@@ -17,3 +17,15 @@
 	- We normalise the result so that the filter entries sum to 1 
 ![[Pasted image 20230214151756.png]]
 
+- How big should the filter window be 
+	- With Gaussian filters this depends on the variance 
+	- Under a Gaussian curve 98% of the area lies within 2 $\sigma$ of the mean 
+	- A filter width of 5$\sigma$ gives more than 98% of the values we want 
+![[Pasted image 20230214152209.png]]
+
+### Separable Filters 
+
+- The Gaussian filter is separable
+	- A 2D Gaussian is equivalent to two 1D Gaussians
+	- first you filter with a horizontal Gaussian
+	- Then a vertical Gaussian 
