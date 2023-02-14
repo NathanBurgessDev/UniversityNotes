@@ -26,3 +26,19 @@
 - Variance (σ$^2$ ) indicates how much noise there is
 ![[Pasted image 20230214144848.png]]
 
+
+- The level of noise is related to the **Gaussian parameter ** $\sigma$
+![[Pasted image 20230214144947.png]]
+
+### Noise Reduction 
+
+- If you have multiple images
+	- taking the mean value of each pixel will reduce noise
+	- noise is randomly added to each value
+	- mean value added = 0
+	- if you average a a large set of estiamtes of the same pixel the random noise values will cancel out 
+- e.g 
+	- 42 43 44 41 40 42 42 44 40
+	- -> 42 
+
+- Given only a single image averaging over a local region has a similar effect
