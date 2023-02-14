@@ -42,3 +42,26 @@
 	- -> 42 
 
 - Given only a single image averaging over a local region has a similar effect
+![[Pasted image 20230214145416.png]]
+
+- Ideally we would choose the region to only include pixels that should have the same value 
+- Solution 
+	- Spatial filter 
+
+### Spatial Filtering: Convolution 
+
+- Many filters follow a similar pattern
+	- multiplying each image value by a corresponding filter entry and summing the results 
+![[Pasted image 20230214145530.png]]
+
+### Filtering 
+
+- More generally with a filter of radius r
+![[Pasted image 20230214145710.png]]
+
+- Many, though not all filters work this way 
+![[Pasted image 20230214145726.png]]
+
+### The mean filter
+![[Pasted image 20230214145745.png]]
+
