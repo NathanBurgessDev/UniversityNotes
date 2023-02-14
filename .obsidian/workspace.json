@@ -66,9 +66,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f8ab713ab87c8ed1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Year2/IIP/Noise.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -134,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Year2/DSY/Firewalls and NAT.md",
+                "file": "Year2/IIP/Noise.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Year2/DSY/Firewalls and NAT.md",
+                "file": "Year2/IIP/Noise.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Year2/DSY/Firewalls and NAT.md"
+                "file": "Year2/IIP/Noise.md"
               }
             }
           }
@@ -197,8 +209,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d38191a8be5ab632",
+  "active": "f8ab713ab87c8ed1",
   "lastOpenFiles": [
+    "Year2/DSY/Firewalls and NAT.md",
     "Year2/DSY/VPN.md",
     "Year2/DSY/Encryption.md",
     "Year2/DSY/Network exploits and attacks.md",
@@ -207,7 +220,6 @@
     "Year2/IIP/Colour Spaces.md",
     "Year2/IIP/Acquiring Colour Images.md",
     "Year2/IIP/Sampling and Quantisation.md",
-    "Year2/DSY/External data representation and marshalling.md",
-    "Year2/DSY/Java UDP Programming.md"
+    "Year2/DSY/External data representation and marshalling.md"
   ]
 }
