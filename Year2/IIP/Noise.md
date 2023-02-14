@@ -18,3 +18,4 @@
 	- added from repeated coding and decoding 
 ![[Pasted image 20230214140409.png]]
 
+### Gaussian Noise 
