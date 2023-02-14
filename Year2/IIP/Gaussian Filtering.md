@@ -29,3 +29,6 @@
 	- A 2D Gaussian is equivalent to two 1D Gaussians
 	- first you filter with a horizontal Gaussian
 	- Then a vertical Gaussian 
+![[Pasted image 20230214152424.png]]
+![[Pasted image 20230214152458.png]]
+
