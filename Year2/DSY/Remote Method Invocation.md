@@ -32,4 +32,19 @@
 - Arguments and return values can be :
 	- **primitive** types e.g. int 
 		- converted to a stantard external representation and sent to the other processes
-	- Instances w
+	- Instances which implements java.io.**Serializable**
+		- converted to standard external representation
+		- creates a new object in the remote process with the same class and field values 
+	- instances which implement java.rmi.**remote**
+		- a new remote reference to be created a sent 
+		- tells the receiving process how to create a new proxy for the remote object
+			- handles local invocation of its methods and relays them back to the original process and object 
+
+### Summary 
+
+- A remote interface is a java interface that extends **java.rmi.remote**
+	- interface types can be primitve serializable or remote
+	- remote methods throw java.rmi.remoteExcepton
+- The implementation class extends java.rmi.UnicastRemoteObject
+- When a reference to a remote object is passed to another process the runtime system creates a proxy object in the new process
+- The java **RMI registry** provides a standard **broker** facility to locate remote server object via the **naming** interface 
