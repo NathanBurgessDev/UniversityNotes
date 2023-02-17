@@ -21,4 +21,15 @@
 - **remote reference** represents a remote object
 	- including the server process host and port + object identifier 
 - A remote object is represented by a dynamically created proxy object 
-	- presents the same 
+	- presents the same interface 
+	- converts local invocations in network requests
+- A **dispatcher** in the server process passes network requests to the original object 
+
+## Java RMI
+
+### Serializable vs Remote 
+
+- Arguments and return values can be :
+	- **primitive** types e.g. int 
+		- converted to a stantard external representation and sent to the other processes
+	- Instances w
