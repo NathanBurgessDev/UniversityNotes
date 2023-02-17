@@ -51,4 +51,7 @@
 
 - Access and location transparency
 	- the use of a module calls procedures in the same way whether the module is local or remote 
-- 
+- In practice transparency is often limited d
+	- remote operations can fail in more and different ways 
+	- remote operations are much slower 
+- Most RPC systems will strongly resemble local procedure calls but with some additional elements 
