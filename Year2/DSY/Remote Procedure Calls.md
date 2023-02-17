@@ -39,4 +39,16 @@
 	- every proedure call is executed exactly once
 - Remote procedure calls can have different semantics
 	- **maybe** - executed one or not at all
-	- **at least once** - caller receives aresult or an exception is raisx
+	- **at least once** - caller receives a result or an exception is raised
+		- caller processes re sends requestions - operation may be executed more than once 
+	- **at most once** - caller receives a result or an exception is raised
+		- calling process wil re-send requests
+		- result of the operation will be saved and resent if needed
+		- operation is never run more than once
+![[Pasted image 20230217121559.png]]
+
+### Transparency 
+
+- Access and location transparency
+	- the use of a module calls procedures in the same way whether the module is local or remote 
+- 
