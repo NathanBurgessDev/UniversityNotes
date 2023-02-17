@@ -90,9 +90,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3814dc333f5ee7c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Year2/DSY/Remote Procedure Calls.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -158,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Year2/IIP/Gaussian Filtering.md",
+                "file": "Year2/DSY/Remote Procedure Calls.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Year2/IIP/Gaussian Filtering.md",
+                "file": "Year2/DSY/Remote Procedure Calls.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Year2/IIP/Gaussian Filtering.md"
+                "file": "Year2/DSY/Remote Procedure Calls.md"
               }
             }
           }
@@ -221,8 +233,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b7cb6b442e5ff21b",
+  "active": "3814dc333f5ee7c6",
   "lastOpenFiles": [
+    "Year2/IIP/Gaussian Filtering.md",
     "Year2/IIP/Noise.md",
     "Year2/DSY/Firewalls and NAT.md",
     "Year2/DSY/VPN.md",
@@ -231,7 +244,6 @@
     "Year2/DSY/Security Models.md",
     "Year2/IIP/Intensity Transform.md",
     "Year2/IIP/Colour Spaces.md",
-    "Year2/IIP/Acquiring Colour Images.md",
-    "Year2/IIP/Sampling and Quantisation.md"
+    "Year2/IIP/Acquiring Colour Images.md"
   ]
 }
