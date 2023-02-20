@@ -4,119 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "d0b2b05c39da7da1",
+        "id": "1b39fd3f154470f1",
         "type": "tabs",
         "children": [
           {
-            "id": "65b8b58a95dac6bb",
+            "id": "366f89d3f8d17730",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Year2/DSY/Security Models.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b24ca26bcf25f7cb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Year2/DSY/Network exploits and attacks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "64a0dc7f804a6042",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Year2/DSY/Encryption.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "56e6f724675ba613",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Year2/DSY/VPN.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d38191a8be5ab632",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Year2/DSY/Firewalls and NAT.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f8ab713ab87c8ed1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Year2/IIP/Noise.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b7cb6b442e5ff21b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Year2/IIP/Gaussian Filtering.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3814dc333f5ee7c6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Year2/DSY/Remote Procedure Calls.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9041419afc4a4dd2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Year2/DSY/Remote Method Invocation.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 8
+        ]
       }
     ],
     "direction": "vertical"
@@ -182,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Year2/DSY/Remote Method Invocation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Year2/DSY/Remote Method Invocation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -221,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Year2/DSY/Remote Method Invocation.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -245,8 +140,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9041419afc4a4dd2",
+  "active": "366f89d3f8d17730",
   "lastOpenFiles": [
+    "Year2/DSY/Remote Method Invocation.md",
     "Year2/DSY/Remote Procedure Calls.md",
     "Year2/IIP/Gaussian Filtering.md",
     "Year2/IIP/Noise.md",
@@ -255,7 +151,6 @@
     "Year2/DSY/Encryption.md",
     "Year2/DSY/Network exploits and attacks.md",
     "Year2/DSY/Security Models.md",
-    "Year2/IIP/Intensity Transform.md",
-    "Year2/IIP/Colour Spaces.md"
+    "Year2/IIP/Intensity Transform.md"
   ]
 }
