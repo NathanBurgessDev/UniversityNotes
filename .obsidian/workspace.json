@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "bf73c601a6a21169",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Year2/IIP/Thresholding.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Year2/IIP/Bilateral Filtering.md",
+                "file": "Year2/IIP/Thresholding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Year2/IIP/Bilateral Filtering.md",
+                "file": "Year2/IIP/Thresholding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Year2/IIP/Bilateral Filtering.md"
+                "file": "Year2/IIP/Thresholding.md"
               }
             }
           }
@@ -185,10 +197,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "69fac769796fde15",
+  "active": "bf73c601a6a21169",
   "lastOpenFiles": [
-    "Year2/IIP/Gaussian Filtering.md",
     "Year2/IIP/Bilateral Filtering.md",
+    "Year2/IIP/Gaussian Filtering.md",
     "Year2/IIP/Anisotropic Diffusion.md",
     "Year2/IIP/Median Filtering.md",
     "Year2/ADE/Big Oh.md",
