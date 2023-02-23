@@ -66,9 +66,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "eaf07620413109fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Year2/IIP/Adaptive Thresholds.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -134,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Year2/IIP/Thresholding.md",
+                "file": "Year2/IIP/Adaptive Thresholds.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Year2/IIP/Thresholding.md",
+                "file": "Year2/IIP/Adaptive Thresholds.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Year2/IIP/Thresholding.md"
+                "file": "Year2/IIP/Adaptive Thresholds.md"
               }
             }
           }
@@ -197,8 +209,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bf73c601a6a21169",
+  "active": "eaf07620413109fc",
   "lastOpenFiles": [
+    "Year2/IIP/Thresholding.md",
     "Year2/IIP/Bilateral Filtering.md",
     "Year2/IIP/Gaussian Filtering.md",
     "Year2/IIP/Anisotropic Diffusion.md",
@@ -207,7 +220,6 @@
     "Year2/ADE/Analysis of Algorithms.md",
     "Year2/LAC/Regular Expressions.md",
     "Year2/DSY/Remote Method Invocation.md",
-    "Year2/DSY/Remote Procedure Calls.md",
-    "Year2/IIP/Noise.md"
+    "Year2/DSY/Remote Procedure Calls.md"
   ]
 }
