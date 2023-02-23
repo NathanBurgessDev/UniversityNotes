@@ -24,4 +24,9 @@
 ### The Similarity Function 
 
 - The smoothing function, s(p,q)  needs to be fond 
-- if *d* is the difference between *p* and *q*
+- if *d* is the difference between *p* and *q* and *D* is the maxmum possible difference we can use 
+- $\frac{D-d}{D}$ 
+- Other functions often used include 
+- $s(p,q) = e^{(\frac{p-q}{K})^2}$ 
+- $s(p,q) = \frac{1}{1+\frac({(p-q}{K}})$
+- 
