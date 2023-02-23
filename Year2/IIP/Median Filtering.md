@@ -16,4 +16,7 @@
 	- The median is the middle value in a set 
 	- Each pixel is set to the median value in a local window 
 	- Result is a real pixel value not a combination 
-	- 
+	- Noise pixels are outliers
+	- Noise would have to affect > 1/2 the pixels to appear in the output 
+![[Pasted image 20230223132123.png]]
+
