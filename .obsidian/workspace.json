@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4fe7219104b4c86c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Year2/IIP/Median Filtering.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Year2/ADE/Big Oh.md",
+                "file": "Year2/IIP/Median Filtering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Year2/ADE/Big Oh.md",
+                "file": "Year2/IIP/Median Filtering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Year2/ADE/Big Oh.md"
+                "file": "Year2/IIP/Median Filtering.md"
               }
             }
           }
@@ -148,8 +161,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "366f89d3f8d17730",
+  "active": "4fe7219104b4c86c",
   "lastOpenFiles": [
+    "Year2/ADE/Big Oh.md",
     "Year2/ADE/Analysis of Algorithms.md",
     "Year2/LAC/Regular Expressions.md",
     "Year2/DSY/Remote Method Invocation.md",
@@ -158,7 +172,6 @@
     "Year2/IIP/Noise.md",
     "Year2/DSY/Firewalls and NAT.md",
     "Year2/DSY/VPN.md",
-    "Year2/DSY/Encryption.md",
-    "Year2/DSY/Network exploits and attacks.md"
+    "Year2/DSY/Encryption.md"
   ]
 }
