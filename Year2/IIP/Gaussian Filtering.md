@@ -38,4 +38,7 @@
 	- Given an NxN image and a nxn filter we need to do O(N$^2$n$^2$)operations 
 ![[Pasted image 20230214153351.png]]
 
-### More Gaussian SMoothing 
+
+
+
+
