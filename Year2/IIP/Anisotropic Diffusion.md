@@ -28,5 +28,15 @@
 - $\frac{D-d}{D}$ 
 - Other functions often used include 
 - $s(p,q) = e^{(\frac{p-q}{K})^2}$ 
-- $s(p,q) = \frac{1}{1+\frac({(p-q}{K}})$
-- 
+- $s(p,q) = \frac{1}{1+(\frac{p-q}{K})^2}$
+- $K$ determines the amount of smoothing 
+
+![[Pasted image 20230223134027.png]]
+
+![[Pasted image 20230223134038.png]]
+
+![[Pasted image 20230223134051.png]]
+
+### Reducing Noise near Edges 
+![[Pasted image 20230223134225.png]]
+
