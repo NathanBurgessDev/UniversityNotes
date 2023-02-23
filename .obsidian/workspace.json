@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Year2/LAC/Regular Expressions.md",
+                "file": "Year2/ADE/Big Oh.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Year2/LAC/Regular Expressions.md",
+                "file": "Year2/ADE/Big Oh.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Year2/LAC/Regular Expressions.md",
+                "file": "Year2/ADE/Big Oh.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Year2/LAC/Regular Expressions.md"
+                "file": "Year2/ADE/Big Oh.md"
               }
             }
           }
@@ -150,6 +150,8 @@
   },
   "active": "366f89d3f8d17730",
   "lastOpenFiles": [
+    "Year2/ADE/Analysis of Algorithms.md",
+    "Year2/LAC/Regular Expressions.md",
     "Year2/DSY/Remote Method Invocation.md",
     "Year2/DSY/Remote Procedure Calls.md",
     "Year2/IIP/Gaussian Filtering.md",
@@ -157,8 +159,6 @@
     "Year2/DSY/Firewalls and NAT.md",
     "Year2/DSY/VPN.md",
     "Year2/DSY/Encryption.md",
-    "Year2/DSY/Network exploits and attacks.md",
-    "Year2/DSY/Security Models.md",
-    "Year2/IIP/Intensity Transform.md"
+    "Year2/DSY/Network exploits and attacks.md"
   ]
 }
