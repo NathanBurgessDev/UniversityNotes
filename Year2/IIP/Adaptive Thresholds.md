@@ -35,3 +35,22 @@
 	- draws a line from there to teh top of the furthist bin
 	- fidns the top of the bin that is furthist from this line; that bin value is the threshold 
 
+![[Pasted image 20230223141916.png]]
+
+### Rosin vs Otsu
+
+![[Pasted image 20230223141933.png]]
+
+![[Pasted image 20230223141956.png]]
+
+### Local Adaptive Methods 
+
+- Imaging conditions and object properties can very within a single image as well as across ets of images 
+- Histograms can be too complex for any method's assumption to be true 
+![[Pasted image 20230223142148.png]]
+
+- Assumptions about histograms may however be true for local areas of the image
+- Divide image into subregions apply a threshold selection method independently to each
+
+ ![[Pasted image 20230223142246.png]]
+ 
