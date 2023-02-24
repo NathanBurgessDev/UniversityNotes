@@ -49,7 +49,13 @@
 
 - A **name** distringuishes one particular thing from others like it
 	- **identifiers** are names intended for machine use 
-- A **name service** allows a (pure) **name** to be **resolved** to an **address** or other **attritbut**
+- A **name service** allows a (pure) **name** to be **resolved** to an **address** or other **attritbutes** bound to that name
+	- i.e. to contact the named resource
+	- The set of possible names constitute the **name space** which is often a **hierarchy** 
+- WWW **Uniform Resource Identifiers** 
+	- **Uniform Resource Locators**
+	- **Uniform Resource Names** - pure names 
+
 
 ## Directory Services
 
@@ -59,3 +65,7 @@
 	- **yellow pages** services
 	- attributed based name services
 - No globally used approach or system (contrast DNS)
+
+### Summary
+- A **directory service** allows resources to be looked up more flexibly than a name service
+	- using **queries** based on attribute values 
