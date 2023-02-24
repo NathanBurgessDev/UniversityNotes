@@ -18,5 +18,18 @@
 	- defined for WWW
 - **Uniform Resource Names** - pure names
 	- must always be looked up before being used 
-- **UNiform Resource Locators** - include information to locate and access a resource 
+- **Uniform Resource Locators** - include information to locate and access a resource 
+![[Pasted image 20230224121033.png]]
+
+### Name Services 
+
+- In a **name service** - names are bound to attributes of the resource
+	- A name is **resolved** to get these attribute values
+- A **name space** is the set of possible names in a name service 
+	- name spaces may be flat or hierarchical
+	- any given name may be **bound** or **unbound**
+	- Name spaces can be subdivided into naming **contexts**
+- Name services can be independent of the distributed system
+	- may contain names from diff systems (**unification**)
+	- may contain names from diff admin domains (**Integration**)
 - 
