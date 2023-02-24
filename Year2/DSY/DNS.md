@@ -74,4 +74,27 @@
 	- but knows the address of a different name server to ask
 - These steps may be
 	- **Iterative** - resolver asks each name server in turn
-	- **Recursive** - the first servers asks 
+	- **Recursive** - the first servers asks the second 
+
+### Caching 
+
+- Every resource record has a **TIme To Live**
+	- how long the value can be cached
+- **Cacheing** is critical to the performance of DNS
+- Cached responses are **non-authoritative**
+
+### Other Notes
+
+- DNS records may be updated autoamtically - **Dynamic DNS** 
+	- as a PC joins a network
+- DNS is rather insecure
+	- give address of a malicious server
+	- **Secure** extensions for DNS are not unversially used
+	- **DNS over HTTPS** is a controversial standard for browsers 
+
+### Summary
+
+- **DNS** is a global name service
+- **DNS** is divided into **administrative domains** or **zones**
+- **DNS Clients** use a **resolver** to resolve domain names
+- **DNS** includes **cacheing** in resolvers and servrs for scalability and performance 
