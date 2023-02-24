@@ -43,4 +43,35 @@
 
 - Returned in diff orders to diff clients
 
-### Admnistrative domains 
+### Administrative domains 
+
+- A subset of namespace with a single administrative authority
+- Corresponds to a domain name suffix
+	- DNS **zone**
+	- e,g, nottingham.ac.uk
+- Each **authority** has complete control over its own administrative zones 
+
+
+### DNS Name Servers 
+
+- A DNS **server** is responsible for one (or more) **zones** 
+	- gives **authoritative answers** for those zones
+	- Must be **replicated** - redundency
+	- Each zone / server is identified in DNS by a **Start Of Authority** record
+	- **NS** (Name Server) records identify responsible (authoritative) name servers 
+
+- A **root server** gives answords for "." the **root** domain
+	- Highly replicated
+	- Must know at least all top-level domain servers 
+	
+![[Pasted image 20230224123847.png]]
+
+### Name resolution
+- DNS name resolution is performed by a **resolver** 
+	- sends initial request to a pre-configured name server
+- Resolution may take multiple steps
+	- the first name server may not know the answer
+	- but knows the address of a different name server to ask
+- These steps may be
+	- **Iterative** - resolver asks each name server in turn
+	- **Recursive** - the first servers asks 
