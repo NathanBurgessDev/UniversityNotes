@@ -78,9 +78,31 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8201548457b768c3",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.15"
+              }
+            }
+          },
+          {
+            "id": "d3b5332c0e83e5d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Year2/DSY/Name and Directory Services.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -146,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Year2/IIP/Adaptive Thresholds.md",
+                "file": "Year2/DSY/Name and Directory Services.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Year2/IIP/Adaptive Thresholds.md",
+                "file": "Year2/DSY/Name and Directory Services.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +208,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Year2/IIP/Adaptive Thresholds.md"
+                "file": "Year2/DSY/Name and Directory Services.md"
               }
             }
           }
@@ -209,8 +231,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "eaf07620413109fc",
+  "active": "d3b5332c0e83e5d8",
   "lastOpenFiles": [
+    "Year2/DSY/Name and Directory Services.md",
     "Year2/IIP/Thresholding.md",
     "Year2/IIP/Bilateral Filtering.md",
     "Year2/IIP/Gaussian Filtering.md",
