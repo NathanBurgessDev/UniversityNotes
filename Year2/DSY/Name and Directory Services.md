@@ -1,5 +1,5 @@
 
-### Names
+## Names
 
 - A **name** uniquely distinguishes one thing from another like it
 - **Identifiers** are names intended for machine use 
@@ -32,4 +32,30 @@
 - Name services can be independent of the distributed system
 	- may contain names from diff systems (**unification**)
 	- may contain names from diff admin domains (**Integration**)
-- 
+
+### JavaRMI registry Example
+
+- The **rmiregistry** application provides the **name service** 
+	- one instance on each node
+	- port 1099
+	- any process on the local machine can register an object
+- **names** are of the form "//HOST/OBJECT"
+	- i.e. a fixed two-level hierarchical **name space**
+		- first level is a host name
+		- second is object name on that host
+- **specific** to Java RMI
+
+### Summary
+
+- A **name** distringuishes one particular thing from others like it
+	- **identifiers** are names intended for machine use 
+- A **name service** allows a (pure) **name** to be **resolved** to an **address** or other **attritbut**
+
+## Directory Services
+
+- **Directory services** allow clients to look up names or addresses using more flexible queries
+	- SQL like queries over **attribute** values 
+- AKA
+	- **yellow pages** services
+	- attributed based name services
+- No globally used approach or system (contrast DNS)
