@@ -23,7 +23,7 @@
 
 ### The Similarity Function 
 
-- The smoothing function, s(p,q)  needs to be fond 
+- The smoothing function, s(p,q)  needs to be found 
 - if *d* is the difference between *p* and *q* and *D* is the maxmum possible difference we can use 
 - $\frac{D-d}{D}$ 
 - Other functions often used include 
