@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1b39fd3f154470f1",
+        "id": "db5147f58fdb921b",
         "type": "tabs",
         "children": [
           {
-            "id": "366f89d3f8d17730",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Year2/ADE/Big Oh.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4fe7219104b4c86c",
+            "id": "096e7c069706974e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -30,91 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "f4b1a1fcf4e9783f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Year2/IIP/Anisotropic Diffusion.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "69fac769796fde15",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Year2/IIP/Bilateral Filtering.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bf73c601a6a21169",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Year2/IIP/Thresholding.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "eaf07620413109fc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Year2/IIP/Adaptive Thresholds.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8201548457b768c3",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.1.15"
-              }
-            }
-          },
-          {
-            "id": "d3b5332c0e83e5d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Year2/DSY/Name and Directory Services.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9cef6a6c7b0b0813",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Year2/DSY/DNS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 8
+        ]
       }
     ],
     "direction": "vertical"
@@ -180,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Year2/DSY/DNS.md",
+                "file": "Year2/IIP/Median Filtering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Year2/DSY/DNS.md",
+                "file": "Year2/IIP/Median Filtering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -220,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Year2/DSY/DNS.md"
+                "file": "Year2/IIP/Median Filtering.md"
               }
             }
           }
@@ -243,18 +148,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9cef6a6c7b0b0813",
+  "active": "096e7c069706974e",
   "lastOpenFiles": [
-    "Images/Pasted image 20230224123847.png",
-    "Images/Pasted image 20230224123207.png",
-    "Year2/DSY/Name and Directory Services.md",
-    "Year2/DSY/DNS.md",
-    "Images/Pasted image 20230224121033.png",
+    "Year2/IIP/Noise.md",
     "Year2/IIP/Thresholding.md",
+    "Year2/IIP/Sampling and Quantisation.md",
+    "Year2/DSY/DNS.md",
+    "Year2/DSY/Name and Directory Services.md",
+    "Year2/IIP/Adaptive Thresholds.md",
     "Year2/IIP/Bilateral Filtering.md",
-    "Year2/IIP/Gaussian Filtering.md",
     "Year2/IIP/Anisotropic Diffusion.md",
     "Year2/IIP/Median Filtering.md",
+    "Images/Pasted image 20230224123847.png",
+    "Images/Pasted image 20230224123207.png",
+    "Images/Pasted image 20230224121033.png",
+    "Year2/IIP/Gaussian Filtering.md",
     "Year2/ADE/Big Oh.md",
     "Year2/ADE/Analysis of Algorithms.md",
     "Year2/LAC/Regular Expressions.md",
