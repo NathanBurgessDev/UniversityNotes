@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Year2/IIP/Anisotropic Diffusion.md",
+                "file": "Year2/IIP/Bilateral Filtering.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Year2/IIP/Anisotropic Diffusion.md",
+                "file": "Year2/IIP/Bilateral Filtering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Year2/IIP/Anisotropic Diffusion.md",
+                "file": "Year2/IIP/Bilateral Filtering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Year2/IIP/Anisotropic Diffusion.md"
+                "file": "Year2/IIP/Bilateral Filtering.md"
               }
             }
           }
@@ -148,14 +148,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "096e7c069706974e",
+  "active": "6ce7d1a4c8fd868a",
   "lastOpenFiles": [
-    "Year2/IIP/Median Filtering.md",
-    "Year2/IIP/Gaussian Filtering.md",
     "Year2/IIP/Intensity Transform.md",
-    "Year2/IIP/Anisotropic Diffusion.md",
-    "Year2/IIP/Sampling and Quantisation.md",
+    "Year2/IIP/Median Filtering.md",
     "Year2/IIP/Thresholding.md",
+    "Year2/IIP/Sampling and Quantisation.md",
+    "Year2/IIP/Gaussian Filtering.md",
+    "Year2/IIP/Anisotropic Diffusion.md",
     "Year2/IIP/Noise.md",
     "Year2/IIP/Colour Spaces.md",
     "Year2/IIP/Bilateral Filtering.md",
