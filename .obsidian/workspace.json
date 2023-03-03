@@ -90,8 +90,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -174,7 +173,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4c3baa5565970b91",
+  "active": "6ce7d1a4c8fd868a",
   "lastOpenFiles": [
     "Year2/DSY/HTTP (HyperText Transfer Protocol).md",
     "Images/Pasted image 20230303163455.png",
