@@ -18,6 +18,7 @@
 - Typicaly this will mean using common protocols, interfaces and encodings 
 - Example
 	- Java Data I/O streams 
+- WWW depends on HTTP URL HTML - independent of local structure
 
 ### [[Distributed Systems Challenges#Challenges|Failure Handling]]
 
@@ -27,6 +28,7 @@
 	- means of detecting and respodning to partial failiures
 - Example
 	- Simple TCP server
+- WWW - if one web server fails others are not affected
 
 ### [[Distributed Systems Challenges#Challenges|Concurrency]]
 - Different processes in a distrbuted system normally run concurrently
@@ -37,4 +39,10 @@
 - Example
 	- TCP server is multi threaded
 	- can server multipele clients concurrently 
+- WWW -most web severs will ahve to cope with many concurrent requests
+
+### Openness
+- Want to extend, re-implement and interoperate 
+- requires agreeing and publishing protocls and interfaces
+- 
 

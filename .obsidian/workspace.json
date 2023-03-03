@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Year2/DSY/HTTP (HyperText Transfer Protocol).md",
+                "file": "Year2/DSY/Distributed Systems Challenges.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "challenges for",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -110,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Year2/DSY/HTTP (HyperText Transfer Protocol).md",
+                "file": "Year2/DSY/Distributed Systems Challenges.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Year2/DSY/HTTP (HyperText Transfer Protocol).md",
+                "file": "Year2/DSY/Distributed Systems Challenges.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Year2/DSY/HTTP (HyperText Transfer Protocol).md"
+                "file": "Year2/DSY/Distributed Systems Challenges.md"
               }
             }
           }
@@ -175,11 +176,11 @@
   },
   "active": "4c3baa5565970b91",
   "lastOpenFiles": [
+    "Year2/DSY/HTTP (HyperText Transfer Protocol).md",
     "Images/Pasted image 20230303163455.png",
     "Images/Pasted image 20230303163442.png",
     "Images/Pasted image 20230303163409.png",
     "Year2/DSY/World Wide Web (WWW).md",
-    "Year2/DSY/HTTP (HyperText Transfer Protocol).md",
     "Images/Pasted image 20230303160317.png",
     "Images/Pasted image 20230303160031.png",
     "Year2/IIP/Bilateral Filtering.md",
