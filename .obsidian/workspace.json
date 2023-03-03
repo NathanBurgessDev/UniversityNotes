@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4c3baa5565970b91",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Year2/DSY/HTTP (HyperText Transfer Protocol).md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Year2/DSY/World Wide Web (WWW).md",
+                "file": "Year2/DSY/HTTP (HyperText Transfer Protocol).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Year2/DSY/World Wide Web (WWW).md",
+                "file": "Year2/DSY/HTTP (HyperText Transfer Protocol).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Year2/DSY/World Wide Web (WWW).md"
+                "file": "Year2/DSY/HTTP (HyperText Transfer Protocol).md"
               }
             }
           }
@@ -161,12 +173,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "033bdb1cabc685ed",
+  "active": "4c3baa5565970b91",
   "lastOpenFiles": [
+    "Year2/DSY/World Wide Web (WWW).md",
+    "Year2/DSY/HTTP (HyperText Transfer Protocol).md",
     "Images/Pasted image 20230303160317.png",
     "Images/Pasted image 20230303160031.png",
     "Year2/IIP/Bilateral Filtering.md",
-    "Year2/DSY/World Wide Web (WWW).md",
     "Year2/IIP/Intensity Transform.md",
     "Year2/IIP/Median Filtering.md",
     "Year2/IIP/Thresholding.md",

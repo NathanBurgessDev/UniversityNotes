@@ -28,4 +28,15 @@
 
 
 #### Handling 
-1. Divides URL into
+1. Divides URL into parts
+2. uses protcol to decide which protocol (HTTP, HTTPS)
+3. uses computer name and port to form a TCP connection
+4. uses name, document name and parameters to request a specific page 
+5. displays the content from the server 
+
+### Summary
+- WWW is an open distributed system
+	- based on standard protocols and representations
+- URL specifies a web page 
+
+
